@@ -1,0 +1,36 @@
+{
+  "id": "c4d91dc4-1cd2-46d8-8811-45e24badee38",
+  "name": "depressionhelp",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Depression can make it hard to enjoy things, but it’s important to know that you’re not alone. Have you tried any activities to help lift your mood, like talking to a friend or practicing mindfulness?",
+            "Depression can feel isolating, but there’s help available. You can try things like speaking with a professional, engaging in physical activities, or practicing relaxation exercises. Would you like more guidance on these?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

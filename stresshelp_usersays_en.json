@@ -1,0 +1,41 @@
+[
+  {
+    "id": "cf94824c-4539-4161-8f4d-06a7bb31ea26",
+    "data": [
+      {
+        "text": "I don\u0027t know how to handle my stress",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "be256739-813f-414f-b87c-6f35293967a9",
+    "data": [
+      {
+        "text": "How can I manage stress?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ad22654e-72ac-4c04-9b11-b98ab3e06de6",
+    "data": [
+      {
+        "text": "I\u0027m so stressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

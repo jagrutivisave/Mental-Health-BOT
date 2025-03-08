@@ -1,0 +1,39 @@
+{
+  "id": "445b17d8-fa79-4c44-a691-da8d96e70f8e",
+  "parentId": "ec112153-bb8b-4ca8-9cba-15b733a21cfe",
+  "rootParentId": "ec112153-bb8b-4ca8-9cba-15b733a21cfe",
+  "name": "moodcheck - fallback",
+  "contexts": [
+    "moodcheck-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "moodcheck.moodcheck-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you for sharing that with me. Let’s take a moment to breathe deeply. Would you like to try a breathing exercise?",
+            "Its great that you vent out your feelings with me. do you want to say anything more i am there to hear you out or you wanna relax yourself"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

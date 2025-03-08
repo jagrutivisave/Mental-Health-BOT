@@ -1,0 +1,41 @@
+{
+  "id": "f00f1034-e3ba-458d-8e56-338a1599dbb5",
+  "parentId": "41d0a173-8c5b-4331-93d9-86d424dcc7a5",
+  "rootParentId": "41d0a173-8c5b-4331-93d9-86d424dcc7a5",
+  "name": "copingtechniques - fallback",
+  "contexts": [
+    "copingtechniques-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "copingtechniques.copingtechniques-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "A good self-care tip is to take a few minutes for yourself, even if it’s just breathing deeply, enjoying a hobby, or going for a walk.",
+            "You can journal your thoughts in a diary",
+            "whatever negative thought you are getting write it down on a page and tear it down or burn it",
+            "you can go out in nature for a walk"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

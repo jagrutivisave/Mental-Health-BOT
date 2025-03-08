@@ -1,0 +1,67 @@
+[
+  {
+    "id": "179c3fc4-a276-4786-8cc8-18abb9ecf961",
+    "data": [
+      {
+        "text": "i am feeling low because...",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7d85343c-097f-45ea-a3b2-e28b2b5c247c",
+    "data": [
+      {
+        "text": "i feel overwhelmed because....",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e43c019f-c170-4ce2-89c2-7814b28aabf5",
+    "data": [
+      {
+        "text": "i am feeling depressed because....",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "aa3a4637-7a48-4dcb-bbd7-056ce7870ede",
+    "data": [
+      {
+        "text": "I\u0027m anxious about…",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4877a9eb-81f5-43a0-aca6-2934c586404b",
+    "data": [
+      {
+        "text": "I\u0027m sad because…",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

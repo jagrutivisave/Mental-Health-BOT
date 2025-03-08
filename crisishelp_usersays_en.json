@@ -1,0 +1,41 @@
+[
+  {
+    "id": "f683ff90-b5c9-4c47-a146-2d3dcd68a2e1",
+    "data": [
+      {
+        "text": "I\u0027m thinking of ending my life",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0a716ea9-ec88-4bb1-ab77-9cd4d8b31d55",
+    "data": [
+      {
+        "text": "I feel like hurting myself",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e30a04e9-efcf-42ea-a351-136681f3d902",
+    "data": [
+      {
+        "text": "I want to harm myself",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

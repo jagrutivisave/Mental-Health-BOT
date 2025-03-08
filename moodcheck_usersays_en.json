@@ -1,0 +1,190 @@
+[
+  {
+    "id": "e885a9d6-a6f5-49f5-94d1-0c8f55b16564",
+    "data": [
+      {
+        "text": "i am feeling restless",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e047815d-48a7-4349-8577-49677dc59be9",
+    "data": [
+      {
+        "text": "i am feeling uneasy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5fc64747-11fe-4028-a3df-4f9162ff8cbd",
+    "data": [
+      {
+        "text": "i am depressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6a6d9607-6a01-4bd6-87f6-430de1b87f04",
+    "data": [
+      {
+        "text": "i am feeling ",
+        "userDefined": false
+      },
+      {
+        "text": "low",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b6eb7c85-72a4-4908-b6ab-786c35079e48",
+    "data": [
+      {
+        "text": "i dont feel good",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fd3009b5-7913-480b-a6b8-2ed8c5c2d773",
+    "data": [
+      {
+        "text": "i am overwhelmed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1a0d8a44-8bf7-49f0-aaf1-130e4a4ec94a",
+    "data": [
+      {
+        "text": "i am sad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5d1d824b-30a4-4beb-acbe-4ef27603de91",
+    "data": [
+      {
+        "text": "i am angry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c5430e4d-ac48-4210-a0ef-5a802e2d74b6",
+    "data": [
+      {
+        "text": "i am irritated",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d35f97a2-1526-45d7-9f19-ded626b7b4e2",
+    "data": [
+      {
+        "text": "i am frustated",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d1f5fba6-e3ba-45c7-8c35-6a0fbbe4dd6a",
+    "data": [
+      {
+        "text": "i want to cry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "54c0ac5a-6ddf-4111-b470-a3bbc78f7c43",
+    "data": [
+      {
+        "text": "i am feeling tired",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4e972c18-6c69-4236-b116-78ffb096518b",
+    "data": [
+      {
+        "text": "i am anxious",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bd4035ff-85b4-4157-a7f5-ee4914f52e04",
+    "data": [
+      {
+        "text": "i feel sad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

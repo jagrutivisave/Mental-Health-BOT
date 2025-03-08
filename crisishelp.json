@@ -1,0 +1,36 @@
+{
+  "id": "221c5769-b3cd-475e-83e9-8ac2d67b2599",
+  "name": "crisishelp",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I’m really sorry you’re feeling this way, but I cannot provide the help you need right now. It’s important to speak to someone immediately. Please reach out to a professional or a trusted person.\nCall the Suicide Prevention Helpline at 1800 121 203040 \nOr text HELLO to 741741 for 24/7 crisis support.",
+            "I hear you, and I’m so sorry you’re feeling this way. Please call your nearest helpline or go to a safe space. You don’t have to go through this alone. you have me i am here to help you and hear you out. we can together find a solution"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

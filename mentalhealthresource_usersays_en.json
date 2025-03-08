@@ -1,0 +1,54 @@
+[
+  {
+    "id": "d66bcb93-c6f2-43bf-af6c-d1987bd4f833",
+    "data": [
+      {
+        "text": "i need guidance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "153ef12e-8247-4af2-aa59-cce184bbd1e7",
+    "data": [
+      {
+        "text": "I need some support resources",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4fffd4fd-6a20-429e-84a7-cfe0e1c7f87f",
+    "data": [
+      {
+        "text": "Give me mental health resources",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2d4fdec1-f476-4ba5-b4c2-80f12dd54203",
+    "data": [
+      {
+        "text": "Where can I get help?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

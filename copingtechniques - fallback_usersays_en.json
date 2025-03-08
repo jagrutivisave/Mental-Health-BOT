@@ -1,0 +1,54 @@
+[
+  {
+    "id": "548702d5-a953-41c1-b5a2-daaf9aff4a1d",
+    "data": [
+      {
+        "text": "guide for self-care",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3a7a1ef3-1d27-4b30-a41c-eea6f8fe309c",
+    "data": [
+      {
+        "text": "i want to do self-care",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0c0d8706-77ec-4865-814b-6514148f3c5d",
+    "data": [
+      {
+        "text": "Give me a self-care activity",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "eed05979-bbf2-47d9-aa7a-70ce6dc7384c",
+    "data": [
+      {
+        "text": "Tell me a self-care tip",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

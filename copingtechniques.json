@@ -1,0 +1,41 @@
+{
+  "id": "41d0a173-8c5b-4331-93d9-86d424dcc7a5",
+  "name": "copingtechniques",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "copingtechniques-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "There are many ways to cope with stress or difficult emotions. Here are some things that might help:\n\nDeep breathing exercises (inhale for 4 seconds, hold for 7 seconds, exhale for 8 seconds)\nMeditation or mindfulness\nJournaling your feelings\nTalking to a friend or family member",
+            "It’s important to take care of yourself. Sometimes self-care can help boost your mood. Would you like a self-care tip?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

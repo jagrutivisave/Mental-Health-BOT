@@ -1,0 +1,36 @@
+{
+  "id": "2af61636-2b0b-4075-855a-9096def9c754",
+  "name": "professionalhelpreferral",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "A professional therapist can help guide you through your emotions and challenges. Here are a few ways to get started:\n\nLook for a licensed therapist or counselor in your area. You can use websites.\nMany therapists offer virtual sessions if in-person is not an option.",
+            "If you’re looking for a therapist, I can help you find one. Would you like to explore online therapy options?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

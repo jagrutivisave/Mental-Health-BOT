@@ -1,0 +1,36 @@
+{
+  "id": "b41a0066-19b2-4b70-a0c4-e165aa605b3e",
+  "name": "anxietyhelp",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Anxiety is when you feel nervous or worried, and it can sometimes be overwhelming. Would you like to try some deep breathing exercises or talk more about what’s making you anxious?",
+            "It’s normal to feel anxious at times, but there are ways to manage it. Would you like to try some grounding techniques?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,36 @@
+{
+  "id": "f9ed681c-902f-47da-b42a-20834bc331bf",
+  "name": "closingstatement",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "“I’m really glad you reached out. Remember, it’s okay to seek help. Take care of yourself, and if you need anything else, I’m here for you.",
+            "It was nice chatting with you. Don’t hesitate to reach out if you need anything. Wishing you peace and strength"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

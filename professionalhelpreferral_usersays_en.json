@@ -1,0 +1,41 @@
+[
+  {
+    "id": "4c316f12-bc72-4c2f-b528-9c6153520e09",
+    "data": [
+      {
+        "text": "Who can help me with my mental health?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "475fb135-cc43-4688-a502-8db07311d9ce",
+    "data": [
+      {
+        "text": "I need professional help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "97fd8983-f13e-4821-b3fe-24e383bf1905",
+    "data": [
+      {
+        "text": "How can I talk to a therapist?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

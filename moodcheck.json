@@ -1,0 +1,58 @@
+{
+  "id": "ec112153-bb8b-4ca8-9cba-15b733a21cfe",
+  "name": "moodcheck",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "moodcheck-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "75444e3b-9085-41de-b533-a0fa262434dd",
+          "name": "person",
+          "required": false,
+          "dataType": "@sys.person",
+          "value": "$person",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I’m really sorry to hear that. Would you like to talk more about what’s going on?",
+            "It sounds like you’re going through a tough time. I’m here to listen. Would you like to share more?",
+            "I hear you. Sometimes it helps to talk about your feelings. Want to continue?",
+            "I get it sometimes life can be very overwhelming and if you don\u0027t have anyone to talk to you have me. I am here to listen to you"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

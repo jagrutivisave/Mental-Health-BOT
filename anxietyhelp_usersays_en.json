@@ -1,0 +1,54 @@
+[
+  {
+    "id": "e6ad509a-d386-4854-9d22-1b37fd8b91a7",
+    "data": [
+      {
+        "text": "i am feeling restless and i dont know how to cop up with my anxiety",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2be20234-1442-4759-b045-c57494088490",
+    "data": [
+      {
+        "text": "I don\u0027t know how to deal with my anxiety",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0c6391ee-321f-4107-b61e-c972f20449b5",
+    "data": [
+      {
+        "text": "I\u0027m feeling anxious",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "43a31cc7-bddf-4566-aacc-50824f9e8649",
+    "data": [
+      {
+        "text": "What is anxiety?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

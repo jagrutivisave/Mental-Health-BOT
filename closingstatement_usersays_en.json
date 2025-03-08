@@ -1,0 +1,67 @@
+[
+  {
+    "id": "4f39b5bf-d1ff-4458-929e-9b8340a2b3ac",
+    "data": [
+      {
+        "text": "see you later",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1aa46b26-ece5-4d42-bedd-a4f8ab1e667f",
+    "data": [
+      {
+        "text": "goodbye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "13528a1c-d3b2-443c-a867-d60c294d3f46",
+    "data": [
+      {
+        "text": "bye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a4e67339-f065-4950-a5d3-0e2498309401",
+    "data": [
+      {
+        "text": "thankyou",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fdf66187-8f28-40b4-9b93-6164ef26ee94",
+    "data": [
+      {
+        "text": "thankyou for your help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

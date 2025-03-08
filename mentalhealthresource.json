@@ -1,0 +1,36 @@
+{
+  "id": "31d26aa0-4589-4150-9bb1-6766a6752da5",
+  "name": "mentalhealthresource",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I need some support resources:https://www.googleadservices.com/pagead/aclk?sa\u003dL\u0026ai\u003dDChcSEwj7rO2bmfeLAxX8H4MDHUg4LaAYABAAGgJzZg\u0026co\u003d1\u0026gclid\u003dEAIaIQobChMI-6ztm5n3iwMV_B-DAx1IOC2gEAAYASAAEgLdRvD_BwE\u0026ohost\u003dwww.google.com\u0026cid\u003dCAASJuRovspnxtg5uPJDmNATkTEZbuuoPHFAnuJjt0i5ZGP9JgzJPUtA\u0026sig\u003dAOD64_13NwxP2VJ0ENvA2yu2cnMsTOKhTw\u0026q\u0026adurl\u0026ved\u003d2ahUKEwiy4uibmfeLAxU-T2wGHX6rEB4Q0Qx6BAgKEAE",
+            "recommend reaching out to a counselor or a therapist for professional help. Here are some resources that can guide you:\n\nNational Suicide Prevention Lifeline:1800 121 203040 \nText HELLO to 741741 for crisis support.”"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
