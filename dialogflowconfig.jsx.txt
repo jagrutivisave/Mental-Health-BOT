@@ -1,0 +1,38 @@
+import { Dialogflow_V2 } from "react-native-dialogflow";
+import dialogflowConfig from "./dialogflowConfig.json";
+
+export const setupDialogflow = () => {
+  Dialogflow_V2.setConfiguration(
+    dialogflowConfig.client_email,
+    `-----BEGIN PRIVATE KEY-----
+    MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCZl98nRFGPpuAb
+    yu2DH03oD0WR2+jInk+zr/vOBBF5kRuZmJ/d74d1oSE5b03xxxo2y23QQIv4AwN8
+    o+axJgF6+3pQPwjZ5lb6osYbje7oiGwTb7B2MAdoGTmQ4gahialNmu70vGNug8v5
+    YARNa9cShGhmQqWXW2JsgTrnHOOxzVtDwGuVmvFiZ3436MjhrDD/xvqTmSAht4hs
+    5OigNGaELDa4YwJdiWIXNEb/vsFitdwUiZC+I6b26boHH1sqv3NC+OaG/99dhuYL
+    JmcXFsftW2RBhrs97FmoN2wr4NxK+FFLkf+z3LwGcwDlhuM/o5Agm+KwZnNKFAIS
+    Rw7sog4rAgMBAAECggEAMCj4TmI0JtR/AgfzyIEY1xJu0IkBaWKGgEPGs3cAGbu/
+    yT4bpqX0NhSTi+RULuMs25CW+s06dkZPohXsgJB3t13CIQZa2qRIkqdWcg5joqMg
+    LEoBrVVrBR+ftsfAp4c4QH67vZ6SmPUXkLakMriFRCejaqksLhT3/CjbVNtwo+/R
+    bhNiXCtABuYrUVZFMBEhkL+yH7norCgB9tSb6OHCNvhfTGf/e2OiI4DXVxGhpDdH
+    DhLQ3cmpW7OBnY7lp+NP2zyqx1IzoTAEWDesoZTkQwgd43JjYHp6gNahc4Wsl1V3
+    CEWwAvCRTCdEieK3+uCq5fn6GbsFsbGk972tlvGrjQKBgQDMEI99wlNhYjq0NR1M
+    j+ygufsw+sIReuJ70qT7otdRr5r4X8JPmqikKM9rOVJPgC1tIXzaZnAL3WmGok0e
+    MUBuDmHJYf4o0xDZb1/vRzgie0DfjCAHY10Ld2GkriFwkCfIpO2kcRaQCFCWD4p4
+    ndm+Or1IYY+hJKz8yWPeSxnYrQKBgQDArvE2+43SVhGKlqxVs9FYZrfzPOoDTuDh
+    79VXN4IHn087ohftI7kJ7yEVjh10PC4DCUad1KonpKSN/4CeZYxz9DiPPSAF92og
+    dpOGJ2QjkyyTrP64Wkc2etHgWtu6xh6IhGYzjN2NUnjwp6PbMuNK4rNa1VGZUuAI
+    cB1xw8GlNwKBgCMoO0CEaU8e2FRRzlFxfmgWgrNmkGboj/qbSPddj9Ev+vgNr3F9
+    iM53hXzIrGisAaeKnHMYMPeqVtLuRXENNTeA3NIQQvSPoJiFerbDw2UVbRDWmHIN
+    aWtfTwBLS9GT1HbaC2NIZIW+GPwxgz7Sm0AN6Kx+unsd0Xvfyofy0molAoGBAKKZ
+    vxMgG2FZonnqhsnX8h0AqdEJIY3jHaFsrANq4z8dcFaphjlnQPqiIrA2+qIhOs7z
+    H/WHBoRnyznNWLPSjEE54hT2hzShwpxclEfMrBPdWevRPC9Ed/4AjWYgJncqQ4/+ 
+    8uQjxr9AzrB/N6Z9/hMu1h4cED0sE8TrH93mTV7nAoGASjjE6FvsGucB7+A95cAh
+    7kVoXx9xC83BWrbjqf3CQxbOuXnuReHD2enSZFd1gBREMcKIhWo8DYg/npPdCOXK
+    wUJ8PMX6OoctN6RnbiSk0XBYMaeNBs3/5NQfo2SB3ifNpOqoVCz7Up2TZHe2Gv4Y
+    x1HWhFe6+i9p5hmRYzQZQwk=
+    -----END PRIVATE KEY-----`,
+    dialogflowConfig.project_id,
+    Dialogflow_V2.LANG_ENGLISH
+  );
+};

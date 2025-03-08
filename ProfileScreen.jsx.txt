@@ -1,0 +1,152 @@
+import React, { useState } from "react";
+import {
+  View,
+  Text,
+  Image,
+  TextInput,
+  TouchableOpacity,
+  StyleSheet,
+  Alert,
+  BackHandler
+} from "react-native";
+
+const ProfileScreen = ({ navigation }) => {
+  const [username, setUsername] = useState("John Doe");
+  const [email, setEmail] = useState("johndoe@example.com");
+  const [editing, setEditing] = useState(false);
+
+  const handleSave = () => {
+    setEditing(false);
+    Alert.alert("Profile Updated", "Your profile information has been updated successfully!");
+  };
+
+  const handleLogout = () => {
+    Alert.alert(
+      "Logout",
+      "Are you sure you want to logout?",
+      [
+        { text: "Cancel", style: "cancel" },
+        { text: "Logout", onPress: () => navigation.replace("Login") },
+        { text: "Exit App", onPress: () => BackHandler.exitApp() }
+      ]
+    );
+  };
+
+  return (
+    <View style={styles.container}>
+      <View style={styles.profileCard}>
+        <Image source={require("../assets/profile.jpg")} style={styles.profileImage} />
+
+        {editing ? (
+          <>
+            <TextInput
+              style={styles.input}
+              value={username}
+              onChangeText={setUsername}
+              placeholder="Enter your username"
+            />
+            <TextInput
+              style={styles.input}
+              value={email}
+              onChangeText={setEmail}
+              placeholder="Enter your email"
+              keyboardType="email-address"
+            />
+            <TouchableOpacity style={styles.saveButton} onPress={handleSave}>
+              <Text style={styles.buttonText}>Save</Text>
+            </TouchableOpacity>
+          </>
+        ) : (
+          <>
+            <Text style={styles.username}>{username}</Text>
+            <Text style={styles.email}>{email}</Text>
+            <TouchableOpacity style={styles.editButton} onPress={() => setEditing(true)}>
+              <Text style={styles.buttonText}>Edit Profile</Text>
+            </TouchableOpacity>
+          </>
+        )}
+
+        <TouchableOpacity style={styles.logoutButton} onPress={handleLogout}>
+          <Text style={styles.buttonText}>Logout</Text>
+        </TouchableOpacity>
+      </View>
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#f5f5f5",
+  },
+  profileCard: {
+    backgroundColor: "#fff",
+    padding: 20,
+    borderRadius: 15,
+    alignItems: "center",
+    width: "85%",
+    elevation: 5, // Shadow effect
+    shadowColor: "#000",
+    shadowOffset: { width: 2, height: 2 },
+    shadowOpacity: 0.2,
+    shadowRadius: 5,
+  },
+  profileImage: {
+    width: 120,
+    height: 120,
+    borderRadius: 60,
+    marginBottom: 15,
+  },
+  username: {
+    fontSize: 22,
+    fontWeight: "bold",
+    color: "#333",
+    marginBottom: 5,
+  },
+  email: {
+    fontSize: 16,
+    color: "gray",
+    marginBottom: 15,
+  },
+  input: {
+    width: "100%",
+    padding: 12,
+    borderWidth: 1,
+    borderColor: "#ccc",
+    borderRadius: 10,
+    marginBottom: 10,
+    backgroundColor: "#f9f9f9",
+  },
+  editButton: {
+    backgroundColor: "#4CAF50",
+    paddingVertical: 12,
+    paddingHorizontal: 20,
+    borderRadius: 10,
+    marginBottom: 10,
+    width: "100%",
+  },
+  saveButton: {
+    backgroundColor: "#2196F3",
+    paddingVertical: 12,
+    paddingHorizontal: 20,
+    borderRadius: 10,
+    width: "100%",
+  },
+  logoutButton: {
+    backgroundColor: "#ff3b30",
+    paddingVertical: 12,
+    paddingHorizontal: 20,
+    borderRadius: 10,
+    marginTop: 10,
+    width: "100%",
+  },
+  buttonText: {
+    color: "#fff",
+    fontWeight: "bold",
+    textAlign: "center",
+  },
+});
+
+export default ProfileScreen;

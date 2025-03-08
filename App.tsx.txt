@@ -1,0 +1,30 @@
+import React from "react";
+import { NavigationContainer } from "@react-navigation/native";
+import { createStackNavigator } from "@react-navigation/stack";
+import LoginScreen from "./screens/LoginScreen";
+import SignupScreen from "./screens/SignupScreen";
+import Dashboard from "./screens/Dashboard";
+import ChatbotScreen from "./screens/ChatbotScreen";
+import MeditationScreen from "./screens/MeditationScreen";
+import MeditationPlayer from "./screens/MeditationPlayer";
+import GamesScreen from "./screens/GamesScreen";
+import ProfileScreen from "./screens/ProfileScreen";
+
+const Stack = createStackNavigator();
+
+export default function App() {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="Login">
+        <Stack.Screen name="Login" component={LoginScreen} />
+        <Stack.Screen name="Signup" component={SignupScreen} />
+        <Stack.Screen name="Dashboard" component={Dashboard} />
+        <Stack.Screen name="Chatbot" component={ChatbotScreen} />
+        <Stack.Screen name="Meditation" component={MeditationScreen} />
+        <Stack.Screen name="MeditationPlayer" component={MeditationPlayer} />
+        <Stack.Screen name="Games" component={GamesScreen} />
+        <Stack.Screen name="Profile" component={ProfileScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+}
